@@ -1,0 +1,21 @@
+{
+  "name": "cynest",
+  "version": "1.0.0",
+  "description": "E2E Test Using Cypress",
+  "main": "index.js",
+  "author": "endinurcahyo",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^10.6.0"
+  },
+  "dependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "@faker-js/faker": "^7.5.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy.run": "cypress run"
+  }
+}
